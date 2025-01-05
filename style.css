@@ -1,0 +1,65 @@
+/* CSS */
+body {
+  background-color: rgb(239, 239, 239);
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+.heart-container {
+  display: grid;
+  grid-template-columns: repeat(7, 30px); /* 7 columns */
+  gap: 10px; /* Space between pixels */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pictures {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #b82c2c;
+  transition: transform 0.5s ease-in-out; /* Optional: smoother transition for transform */
+}
+
+#picOne {
+  background-image: url('museoPicThree.jpg'); /* Set the background image */
+}
+#picTwo {
+  background-image: url('picTwo.jpg'); /* Set the background image */
+}
+#picThree {
+  background-image: url('picThree.jpg'); /* Set the background image */
+}
+#picFour {
+  background-image: url('picFour.jpg'); /* Set the background image */
+}
+#picSix {
+  background-image: url('picTwo.jpg'); /* Set the background image */
+}
+
+
+/* Slide left animation */
+
+
+
+
+/* Blank cells */
+.blank {
+  width: 30px;
+  height: 30px;
+  display: flex;
+}
+
+.r2_1 {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border: 1px solid #000;
+}
